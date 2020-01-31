@@ -1,0 +1,32 @@
+.card-item img {
+  border-radius: 7px 7px 0 0;
+}
+
+.office-desc {
+  display: flex;
+  justify-content: space-around;
+  height: 90px;
+  align-items: center;
+}
+
+.btn-desc {
+    background-color: #2474c1;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.reservation-wrapper {
+    width: 53%;
+    text-align: center;
+    margin: 11% auto;
+  h1 {
+    color: #00b39b;
+    font-size: 29px;
+    font-weight: 400;
+  }
+  p {
+    color: #737070;
+    font-size: 14px;
+    margin-top: 5%;
+  }
+}

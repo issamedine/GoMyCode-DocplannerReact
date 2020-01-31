@@ -1,0 +1,26 @@
+.boxes {
+  height: 350px;
+  border-radius: 15px;
+  overflow: hidden;
+  color: #ffff;
+  padding: 20px 40px;
+  position: relative;
+  img {
+    position: absolute;
+    right: -140px;
+  }
+  select {
+    word-wrap: normal;
+    border: none;
+    padding: 12px;
+    background-color: #ffffff;
+    border-radius: 4px;
+  }
+}
+
+.green-box {
+  background-color: #00ccb1;
+}
+.blue-box {
+  background-color: #3d83df;
+}

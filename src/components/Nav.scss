@@ -1,0 +1,30 @@
+.form-inline {
+  list-style: none;
+  margin: 0;
+
+  .dropdown {
+    margin: 0 10px;
+    cursor: pointer;
+    color: #909090;
+    .dropdown-menu {
+      display: none;
+      margin: 0 10px;
+      cursor: pointer;
+    }
+    &:hover {
+        color: #00c3a5;
+        .dropdown-menu {
+            display: block;
+            .dropdown-item {
+                color: #909090;
+            }
+            .dropdown-item:hover {
+                color: #00c3a5;
+            }
+          }
+    }
+  }
+  .dropdown-menu .dropdown-item:last-child {
+    border-top: 1px solid #ddd;
+  }
+}
